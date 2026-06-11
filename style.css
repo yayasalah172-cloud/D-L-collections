@@ -95,7 +95,7 @@ margin-bottom: 10px;
 /* Pour les téléphones (petits écrans) */
 @media (max-width: 600px) {
   .grille-produits {
-    grid-template-columns: repeat(2, 1fr); /* 2 photos par ligne sur téléphone */
+    grid-template-columns: repeat(2, 1fr); /* 4 photos par ligne sur téléphone */
   }
 }
 
@@ -112,3 +112,4 @@ margin-bottom: 10px;
 .card-produit img:hover {
   transform: scale(1.05); /* Zoom de 5% au survol */
 }
+    
