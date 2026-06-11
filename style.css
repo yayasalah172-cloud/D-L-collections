@@ -98,15 +98,12 @@ margin-bottom: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 /* Pour les ordinateurs (grands écrans) -> 4 photos par ligne */
 @media (min-width: 601px) {
   .grille-produits {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-}
-
 /* Pour les ordinateurs (grands écrans) -> 4 photos par ligne */
 @media (min-width: 601px) {
   .grille-produits {
@@ -116,7 +113,6 @@ margin-bottom: 10px;
 .card-produit img {
   transition: transform 0.3s ease; /* Rend le mouvement fluide */
 }
-
 .card-produit img:hover {
   transform: scale(1.05); /* Zoom de 5% au survol */
 }
