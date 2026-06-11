@@ -92,17 +92,25 @@ margin-bottom: 10px;
     color: #bdc3c7;
     font-size: 0.9rem;
 }
-/* Pour les téléphones (petits écrans) */
+/* Pour les téléphones (petits écrans) -> 2 photos par ligne */
 @media (max-width: 600px) {
   .grille-produits {
-    grid-template-columns: repeat(4, 2fr); /* 4 photos par ligne sur téléphone */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Pour les écrans d'ordinateur */
+/* Pour les ordinateurs (grands écrans) -> 4 photos par ligne */
 @media (min-width: 601px) {
   .grille-produits {
-    grid-template-columns: repeat(4, 1fr); /* 4 photos par ligne sur grand écran */
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+}
+
+/* Pour les ordinateurs (grands écrans) -> 4 photos par ligne */
+@media (min-width: 601px) {
+  .grille-produits {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .card-produit img {
